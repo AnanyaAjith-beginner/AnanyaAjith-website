@@ -1,0 +1,103 @@
+body{
+ background:#333eccba;
+       height: 800%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+          background:#556dffea  
+  }
+  .nav {
+  margin: 0 7rem;
+  padding-top: 2.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .nav .logo h2{
+      font-size: 1.Brem;
+      font-weight: bold;
+      color:white;
+  }
+  .nav .navigation ul{
+  display: flex;
+      flex-direction: row;
+      
+  }
+   .nav .navigation ul li{
+  list-style:none;
+  padding:0 1rem;  
+  }
+  .nav .navigation ul li a {
+  text-decoration:none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  transition:0.3s ease;
+  }
+  .nav .navigation ul li a span {
+    font-size: 0.9rem;
+    border: 1px solid#d1e4d185
+    padding: 12px 20px;
+    background: #e4d826d2
+    border-radius: 5px;
+    color: white;
+    }
+  .home{
+      margin: 0 7rem;
+      padding-top: 4rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .home .text{
+      width: 35%;
+      
+  }
+   .home .text h5{
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 40px;
+      
+  }
+  .home .text h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 4px;
+     color: #ffffffea;
+     line-height: 65px;
+     padding-bottom: 10px;
+  } 
+ .home .text p {
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+     
+     line-height: 30px;
+     padding-bottom: 12px;
+  } 
+  .home .text button {
+      background:#d995ffea;
+      border: 1px #6927ff;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 20px 25px;
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0px 15px 30px -12px rgb(0 0 0 / 20%);
+  }
+  .home .back img{
+      width: 100%;
+  }
+  .home .back {
+      width: 52%;
+  }
+  
+  
